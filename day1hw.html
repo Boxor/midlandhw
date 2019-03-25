@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Schedule of Connor Schonlau - Web Developer in-training and Freelance Ninja</title>
+    <meta charset="utf-8" />
+    <style>
+        
+        th{
+            text-align: left;
+        }
+        
+        table, th, td{
+            border: solid 1px black;
+        }
+        
+        fieldset{
+            width: 40em;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="5">Eat breakfast, get ready for school</td>
+            <td>Sleep in</td>
+            <td rowspan="3">Ninja Training</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td colspan="5">Eat lunch, socialize</td>
+            <td>Eat lunch, watch anime</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td colspan="5">Eat dinner and do homework every day Monday through Friday</td>
+            <td>Eat dinner, play video games</td>
+        </tr>
+    </table>
+    
+    <p>Contact me:</p>
+    
+    <form>
+        <fieldset>
+            <legend>Full Name</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="First Name">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Last Name">
+        </fieldset>
+        <fieldset>
+            <legend>Favorite Color</legend>
+            <input type="radio" name="favColor" value="Blue">Blue
+            <input type="radio" name="favColor" value="Red">Red
+            <input type="radio" name="favColor" value="Yellow">Yellow
+            <input type="radio" name="favColor" value="Green" checked>Green
+            <input type="radio" name="favColor" value="Orange">Orange
+            <input type="radio" name="favColor" value="Purple">Purple
+            <input type="radio" name="favColor" value="White">White
+            <input type="radio" name="favColor" value="Black">Black
+        </fieldset>
+        <fieldset>
+            <legend>Pizza Toppings</legend>
+            <input type="checkbox" name="top1" value="Pepperoni" checked>Pepperoni
+            <input type="checkbox" name="top2" value="Sausage">Sausage
+            <input type="checkbox" name="top3" value="Hamburger">Hamburger
+            <input type="checkbox" name="top4" value="Olives">Olives
+            <input type="checkbox" name="top5" value="Onions">Onions
+            <input type="checkbox" name="top6" value="Not pineapple">Not pineapple
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <select name="gender">
+                <optgroup label="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Heroic Achievements</legend>
+            <textarea name="heroics" placeholder="Heroic Achievements" rows="4" cols="30"></textarea>
+        </fieldset>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
